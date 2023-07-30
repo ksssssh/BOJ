@@ -18,5 +18,7 @@ int main(){
         cout << count[i] << " ";
     }
 
+    delete[] count;
+
     return 0;
 }
