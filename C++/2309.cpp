@@ -35,6 +35,7 @@ int main(){
         cout << arr[i] << "\n";
     }
 
+    delete[] arr;
 
     return 0;
 }
