@@ -27,6 +27,7 @@ int main(){
 
     cout << max << "\n";
 
+    delete[] temperatures;
 
     return 0;
 }
